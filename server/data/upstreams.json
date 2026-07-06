@@ -1,0 +1,14 @@
+[
+  {
+    "id": "httpbin",
+    "name": "HTTPBin (Test API)",
+    "targetUrl": "https://httpbin.org",
+    "enabled": true
+  },
+  {
+    "id": "jsonplaceholder",
+    "name": "JSONPlaceholder (Mock REST)",
+    "targetUrl": "https://jsonplaceholder.typicode.com",
+    "enabled": true
+  }
+]

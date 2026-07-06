@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-dark-950 text-dark-100 antialiased;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dark-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-dark-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-dark-500;
+}
+
+/* Swagger UI overrides for dark theme */
+.swagger-ui {
+  @apply text-dark-100;
+}
+
+.swagger-ui .info .title {
+  @apply text-dark-100;
+}
+
+.swagger-ui .scheme-container {
+  @apply bg-dark-800;
+}
