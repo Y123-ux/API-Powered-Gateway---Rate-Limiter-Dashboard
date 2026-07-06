@@ -106,8 +106,8 @@ Client Request
 
 ```bash
 # Clone the repo
-git clone https://github.com/Y123-ux/api-gateway-dashboard.git
-cd api-gateway-dashboard
+git clone https://github.com/Y123-ux/API-Powered-Gateway---Rate-Limiter-Dashboard.git
+cd API-Powered-Gateway---Rate-Limiter-Dashboard
 
 # Install dependencies (both server and client via npm workspaces)
 npm install
